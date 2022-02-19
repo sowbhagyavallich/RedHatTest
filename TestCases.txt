@@ -1,0 +1,10 @@
+Positive test case:
+
+1. Single file can be downloaded using pydrive package. It may be anything like pdf, jpeg, txt, xlsx, docx etc
+
+2. We can download the all the files in a folder by providing the folder id as an input.
+
+
+Negative test case:
+
+The program will throw an exception when wrong id is provided
