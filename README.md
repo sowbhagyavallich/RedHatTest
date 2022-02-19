@@ -23,6 +23,36 @@ Open the project and click on as shown below
 
 ![image](https://user-images.githubusercontent.com/100018055/154794566-f2038b6a-2792-47b5-bb30-c610eb493d95.png)
 
+Enable api and services and select Google drive api
+
+After enabling gdrive api, create the credentials and follow the steps and proceed to setup the OAuth 2.0 Client IDs
+
+Download the json file of oAuth 2.0 client ID and save it in your project directory
+
+![image](https://user-images.githubusercontent.com/100018055/154796079-6c419a58-4dc3-408a-9039-19f01e251614.png)
+
+#OAuth consent screen
+
+open the OAuth onsent screen and click on publish to publish your app and provide authentication.
+
+
+#updating the settings.yaml file
+
+After creating the outh client ID, edit the "OAuth 2.0 Client IDs" and copy the Client id and client secret 
+
+Open the settings.yaml file and update those IDs and save it.
+
+#Running the main.py program
+
+Open the terminal and go to project directory
+
+make sure python is installed and pydrive package is nstalled and run the program using "python main.py"
+
+If it redirects you to the authentication page, make sure to select the correct account and provide authentication.
+
+The files from the google drive will get downloaded to your local disk.
+
+
 
 
 
