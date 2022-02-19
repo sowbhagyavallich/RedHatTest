@@ -1,9 +1,12 @@
-# RedHatTest
-Download the files from GoogleDrive using Python
+# RedHatTest  --  Downloading the files from GoogleDrive using Python
+
+
 
 #pydrive
 
 PyDrive is a wrapper library of google-api-python-client that simplifies many common Google Drive API tasks.
+
+
 
 #Installation
 
@@ -11,11 +14,14 @@ Use the package manager pip to install pydrive
 
 pip install pydrive
 
+
+
 #Setting up googledrive oauth authentication
 
 Go to https://console.cloud.google.com/ and login with the same account of your google drive
 
 create a new project and open that project
+
 
 #Downloading google drive api and creating credentials
 
@@ -31,18 +37,28 @@ Download the json file of oAuth 2.0 client ID and save it in your project direct
 
 ![image](https://user-images.githubusercontent.com/100018055/154796079-6c419a58-4dc3-408a-9039-19f01e251614.png)
 
+
 #OAuth consent screen
+
 
 open the OAuth onsent screen and click on publish to publish your app and provide authentication.
 
+![image](https://user-images.githubusercontent.com/100018055/154796403-b2d9620c-e957-48d1-aa6f-b84418334891.png)
+
+
+
 
 #updating the settings.yaml file
+
 
 After creating the outh client ID, edit the "OAuth 2.0 Client IDs" and copy the Client id and client secret 
 
 Open the settings.yaml file and update those IDs and save it.
 
+
+
 #Running the main.py program
+
 
 Open the terminal and go to project directory
 
