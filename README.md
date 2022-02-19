@@ -2,17 +2,23 @@
 
 
 
-#pydrive
+#pydrive 
 
 PyDrive is a wrapper library of google-api-python-client that simplifies many common Google Drive API tasks.
+
+#google-api-python-client 
+
+Google API Client Library for Python
 
 
 
 #Installation
 
-Use the package manager pip to install pydrive
+Use the package manager pip to install pydrive and Google API Client
 
 pip install pydrive
+
+pip install google-api-python-client
 
 
 
