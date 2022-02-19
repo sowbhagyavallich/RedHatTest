@@ -14,6 +14,8 @@ drive = GoogleDrive(gauth)
 #
 # file.GetContentFile('filename.pdf')
 
+#You can get the id of a file or folder by right clicking on it and copying the link
+
 id = input('enter the folder_id here: ')
 
 #list out the files in the folder
