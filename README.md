@@ -62,7 +62,7 @@ Open the settings.yaml file and update those IDs and save it.
 
 Open the terminal and go to project directory
 
-make sure python is installed and pydrive package is nstalled and run the program using "python main.py"
+Make sure python is installed and pydrive package is installed and run the program using "python main.py"
 
 If it redirects you to the authentication page, make sure to select the correct account and provide authentication.
 
