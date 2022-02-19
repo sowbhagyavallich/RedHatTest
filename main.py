@@ -1,6 +1,7 @@
 #pip install pydrive
 #import Googleauth and Googledrive modules from pydrive
 
+from googleapiclient.errors import HttpError
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 gauth = GoogleAuth()
