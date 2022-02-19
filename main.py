@@ -22,11 +22,16 @@ id = input('enter the folder_id here: ')
 
 FileList = drive.ListFile({'q': f"'{id}' in parents"}).GetList()
 
-#Downloading the files from a folder
-for file in FileList:
-    print(file['title'])
-    file.GetContentFile(file['title'])
+#list out the files in the folder
+try:
+    FileList = drive.ListFile({'q': f"'{id}' in parents"}).GetList()
 
+    #Downloading the files from a folder
+    for file in FileList:
+        print(file['title'])
+        file.GetContentFile(file['title'])
+except HttpError:
+    print('Incorrect ID provided for file/folder')
 
 
 
